@@ -75,6 +75,7 @@ observe-sequence@1.0.12
 ordered-dict@1.0.8
 pagebakers:ionicons@2.0.1_1
 promise@0.7.3-beta.7
+qactivo:datatables@0.0.1
 random@1.0.10
 reactive-dict@1.1.8
 reactive-var@1.0.10
