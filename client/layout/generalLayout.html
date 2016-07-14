@@ -1,6 +1,5 @@
 <template name="generalLayout">
-  {{>head}}
-  <body class="hold-transition skin-blue sidebar-mini">
+
     <div class="wrapper">
 
       {{>header}}
@@ -12,7 +11,7 @@
         <!-- Content Header (Page header) -->
         {{>contentHeader}}
         <!-- Main content -->
-        {{> yield}}
+        {{> Template.dynamic template=tpl_name}}
       </div><!-- /.content-wrapper -->
       {{>footer}}
       <!-- Control Sidebar -->
@@ -23,5 +22,5 @@
     <script>
       $.widget.bridge('uibutton', $.ui.button);
     </script>
-  </body>
+
 </template>
