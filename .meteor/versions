@@ -2,6 +2,7 @@ agnito:raphael@0.1.0
 aldeed:autoform@4.2.2
 aldeed:simple-schema@1.1.0
 allow-deny@1.0.5
+autopublish@1.0.7
 autoupdate@1.2.11-beta.7
 babel-compiler@6.9.0-beta.7
 babel-runtime@0.1.10-beta.7
@@ -32,6 +33,7 @@ ecmascript-runtime@0.2.12-beta.7
 ejson@1.0.12
 es5-shim@4.5.13-beta.7
 fastclick@1.0.12
+foldor:bootstrap-3@3.2.0-1
 fortawesome:fontawesome@4.4.0
 geojson-utils@1.0.9
 hot-code-push@1.0.4
@@ -39,6 +41,7 @@ html-tools@1.0.10
 htmljs@1.0.10
 http@1.1.8-beta.7
 id-map@1.0.8
+insecure@1.0.7
 jackyqiu:meteor-jvectormap@2.0.2
 jameslefrere:autoform-jquery-knob@0.1.0
 jquery@1.11.9
@@ -64,6 +67,7 @@ momentjs:moment@2.10.6
 mongo@1.1.10-beta.7
 mongo-id@1.0.5
 mrt:bootstrap3-wysihtml5@0.3.3
+mrt:datatables-bootstrap3@0.1.0
 mrt:flot@1.0.6
 natestrauser:select2@4.0.0_1
 nemo64:bootstrap@3.3.5_2

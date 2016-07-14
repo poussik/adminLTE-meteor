@@ -44,3 +44,5 @@ tkornblit:icheck
 kadira:blaze-layout
 kadira:flow-router
 tomwasd:flow-router-autoscroll
+
+mrt:datatables-bootstrap3
