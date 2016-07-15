@@ -12,7 +12,7 @@ FlowRouter.notFound = {
     }
 };
 
-// Default route, redirect to /
+
 _.each([
     {u: '',                 v: 'dashboard1'},
     {u: 'dashboard1',       v: ''},
@@ -36,8 +36,6 @@ _.each([
     {u: 'charts/morris',    v: 'morrisPage'},
     {u: 'forms/advanced',   v: 'advanceFormPage'},
     {u: 'forms/general',    v: 'generalFormPage'},
-
-
 ], function(o) {
     const u = o.u;
     const v = (o.v.length ? o.v : o.u)
@@ -48,25 +46,3 @@ _.each([
         },
     });
 })
-/*
- Router.route('/forms/advanced', function () {
- this.render('advanceFormPage');
- this.layout('generalLayout');
- document.title = "AdminLTE | Advanced Forms";
- });
-
- Router.route('/forms/general', function () {
- this.render('generalFormPage');
- this.layout('generalLayout');
- document.title = "AdminLTE | General Forms";
- });
- */
-/* Have to be last to catch all no defined URL */
-/*
- Router.route('/(.*)', function () {
- this.name = 'page404'
- this.render('404');
- this.layout('generalLayout');
- document.title = "AdminLTE | Page not found";
- });
- */
