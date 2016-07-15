@@ -11,7 +11,6 @@ blaze-html-templates    # Compile .html files into Meteor Blaze views
 session                 # Client-side reactive dictionary for your app
 tracker                 # Meteor's client-side reactive programming library
 
-standard-minifiers      # JS/CSS minifiers run for production mode
 es5-shim                # ECMAScript 5 compatibility for older browsers.
 ecmascript              # Enable ECMAScript2015+ syntax in app code
 
@@ -34,7 +33,7 @@ fastclick
 fortawesome:fontawesome
 maxharris9:meteor-bootstrap-slider
 rzymek:fullcalendar
-nemo64:bootstrap
+#nemo64:bootstrap
 mrt:flot
 natestrauser:select2
 bigdsk:inputmask
@@ -46,3 +45,5 @@ tomwasd:flow-router-autoscroll
 
 qactivo:datatables
 aramk:ionicons
+standard-minifier-css
+standard-minifier-js
