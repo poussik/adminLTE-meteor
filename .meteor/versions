@@ -73,7 +73,6 @@ nemo64:bootstrap-data@3.3.5
 npm-mongo@1.4.45-beta.7
 observe-sequence@1.0.12
 ordered-dict@1.0.8
-pagebakers:ionicons@2.0.1_1
 promise@0.7.3-beta.7
 qactivo:datatables@0.0.1
 random@1.0.10
